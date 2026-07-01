@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal da Erva-Mate</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:#f4f7f2;
+            color:#333;
+            line-height:1.6;
+        }
+
+        header{
+            background:linear-gradient(135deg,#1b5e20,#4caf50);
+            color:white;
+            text-align:center;
+            padding:60px 20px;
+        }
+
+        header h1{
+            font-size:3em;
+            margin-bottom:10px;
+        }
+
+        header p{
+            font-size:1.2em;
+            max-width:800px;
+            margin:auto;
+        }
+
+        nav{
+            background:#2e7d32;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            text-decoration:underline;
+        }
+
+        .container{
+            width:90%;
+            max-width:1100px;
+            margin:40px auto;
+        }
+
+        .introducao{
+            background:white;
+            padding:30px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,.1);
+            margin-bottom:30px;
+        }
+
+        .cards{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:20px;
+        }
+
+        .card{
+            background:white;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 0 8px rgba(0,0,0,.1);
+            transition:.3s;
+        }
+
+        .card:hover{
+            transform:translateY(-5px);
+        }
+
+        .card h3{
+            color:#2e7d32;
+            margin-bottom:10px;
+        }
+
+        footer{
+            background:#1b5e20;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:40px;
+        }
+
+        .botao{
+            display:inline-block;
+            margin-top:20px;
+            background:#2e7d32;
+            color:white;
+            padding:12px 25px;
+            border-radius:5px;
+            text-decoration:none;
+            transition:.3s;
+        }
+
+        .botao:hover{
+            background:#1b5e20;
+        }
+    </style>
+
+</head>
+<body>
+
+<header>
+    <h1>Portal da Erva-Mate</h1>
+    <p>
+        Bem-vindo ao seu espaço dedicado ao conhecimento sobre a erva-mate.
+        Aqui você encontrará informações completas sobre cultivo, produção,
+        história, sementes, receitas e muito mais.
+    </p>
+
+    <a href="#conteudo" class="botao">Conheça o Conteúdo</a>
+</header>
+
+<nav>
+    <a href="#">Início</a>
+    <a href="#">História</a>
+    <a href="#">Cultivo</a>
+    <a href="#">Receitas</a>
+    <a href="#">Contato</a>
+</nav>
+
+<div class="container" id="conteudo">
+
+    <section class="introducao">
+        <h2>Sobre o Site</h2>
+
+        <p>
+            Este portal foi criado para reunir informações importantes sobre a
+            erva-mate, desde sua origem até as melhores técnicas de cultivo.
+            O objetivo é compartilhar conhecimento para estudantes, produtores,
+            pesquisadores e admiradores dessa planta tão importante para a cultura
+            do sul da América do Sul.
+        </p>
+    </section>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🌱 O que é a Erva-Mate?</h3>
+            <p>
+                Conheça as características da planta, sua importância econômica,
+                cultural e os principais usos da erva-mate.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>📜 História da Erva-Mate</h3>
+            <p>
+                Descubra a origem da erva-mate, sua utilização pelos povos indígenas
+                e sua evolução ao longo da história.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🌿 Melhores Substratos</h3>
+            <p>
+                Aprenda quais são os substratos ideais para produzir mudas saudáveis
+                e obter um excelente desenvolvimento das plantas.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🌎 Melhor Solo</h3>
+            <p>
+                Veja quais são os tipos de solo mais indicados para o cultivo da
+                erva-mate e como preparar corretamente a área de plantio.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🌰 Sementes de Erva-Mate</h3>
+            <p>
+                Saiba onde conseguir sementes de qualidade, como selecionar boas
+                matrizes e garantir um cultivo de sucesso.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🌱 Germinação das Sementes</h3>
+            <p>
+                Conheça o processo de quebra de dormência, germinação e produção
+                de mudas vigorosas.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🌳 Identificação de Matrizes</h3>
+            <p>
+                Aprenda como identificar árvores matrizes de alta qualidade para
+                coleta de sementes e conservação genética.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🍵 Receitas com Erva-Mate</h3>
+            <p>
+                Descubra receitas tradicionais e modernas utilizando erva-mate,
+                incluindo chás, bebidas, sobremesas e outras preparações.
+            </p>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>
+        © 2026 - Portal da Erva-Mate | Conhecimento, cultivo e tradição.
+    </p>
+</footer>
+
+</body>
+</html>
